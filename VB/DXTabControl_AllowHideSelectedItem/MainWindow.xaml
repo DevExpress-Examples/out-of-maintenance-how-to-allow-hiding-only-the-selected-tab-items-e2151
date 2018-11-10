@@ -1,4 +1,4 @@
-﻿<Window xmlns:controls="clr-namespace:DevExpress.Xpf.Core;assembly=DevExpress.Xpf.Core.v10.1"
+<Window xmlns:controls="clr-namespace:DevExpress.Xpf.Core;assembly=DevExpress.Xpf.Core.v13.1"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         x:Class="DXTabControl_AllowHideSelectedItem.MainWindow"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -8,41 +8,41 @@
                        SelectionChanged="tabControl_SelectionChanged">
             <controls:DXTabControl.ItemHeaderTemplate>
                 <DataTemplate>
-                    <TextBlock Text="{Binding Path=ProductName}"/>
+                    <TextBlock Text="{Binding Path=ProductName}" />
                 </DataTemplate>
             </controls:DXTabControl.ItemHeaderTemplate>
             <controls:DXTabControl.ItemTemplate>
                 <DataTemplate>
                     <StackPanel>
                         <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="ID = "/>
-                            <TextBlock Text="{Binding Path=ID}" Foreground="Blue"/>
+                            <TextBlock Text="ID = " />
+                            <TextBlock Text="{Binding Path=ID}" Foreground="Blue" />
                         </StackPanel>
                         <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="Price = "/>
-                            <TextBlock Text="{Binding Path=Price}" Foreground="Blue"/>
+                            <TextBlock Text="Price = " />
+                            <TextBlock Text="{Binding Path=Price}" Foreground="Blue" />
                         </StackPanel>
                         <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="Discount = "/>
-                            <TextBlock Text="{Binding Path=Discount}" Foreground="Blue"/>
+                            <TextBlock Text="Discount = " />
+                            <TextBlock Text="{Binding Path=Discount}" Foreground="Blue" />
                         </StackPanel>
                         <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="Order Date = "/>
-                            <TextBlock Text="{Binding Path=OrderDate}" Foreground="Blue"/>
+                            <TextBlock Text="Order Date = " />
+                            <TextBlock Text="{Binding Path=OrderDate}" Foreground="Blue" />
                         </StackPanel>
                         <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="Status = "/>
-                            <TextBlock Text="{Binding Path=Status}" Foreground="Blue"/>
+                            <TextBlock Text="Status = " />
+                            <TextBlock Text="{Binding Path=Status}" Foreground="Blue" />
                         </StackPanel>
                         <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="Urgent = "/>
-                            <TextBlock Text="{Binding Path=IsUrgent}" Foreground="Blue"/>
+                            <TextBlock Text="Urgent = " />
+                            <TextBlock Text="{Binding Path=IsUrgent}" Foreground="Blue" />
                         </StackPanel>
                     </StackPanel>
                 </DataTemplate>
             </controls:DXTabControl.ItemTemplate>
             <controls:DXTabControl.View>
-                <controls:TabControlScrollView AllowHideTabItems="False"/>
+                <controls:TabControlScrollView AllowHideTabItems="False" />
             </controls:DXTabControl.View>
         </controls:DXTabControl>
     </Grid>
