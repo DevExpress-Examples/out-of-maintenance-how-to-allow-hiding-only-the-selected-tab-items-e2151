@@ -1,3 +1,10 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [DataSource.cs](./CS/DXTabControl_AllowHideSelectedItem/DataSource.cs)
+* [MainWindow.xaml](./CS/DXTabControl_AllowHideSelectedItem/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/DXTabControl_AllowHideSelectedItem/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/DXTabControl_AllowHideSelectedItem/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/DXTabControl_AllowHideSelectedItem/MainWindow.xaml))
+<!-- default file list end -->
 # How to Allow Hiding only the Selected Tab Items
 
 
