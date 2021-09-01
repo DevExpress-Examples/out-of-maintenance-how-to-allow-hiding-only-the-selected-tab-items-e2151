@@ -42,7 +42,7 @@
                 </DataTemplate>
             </controls:DXTabControl.ItemTemplate>
             <controls:DXTabControl.View>
-                <controls:TabControlScrollView AllowHideTabItems="False" />
+                <controls:TabControlScrollView ShowHeaderMenu="True" AllowHideTabItems="False" />
             </controls:DXTabControl.View>
         </controls:DXTabControl>
     </Grid>

@@ -1,5 +1,4 @@
-﻿Imports Microsoft.VisualBasic
-Imports System.Windows
+﻿Imports System.Windows
 Imports DevExpress.Utils
 Imports DevExpress.Xpf.Core
 Imports DXExample.DemoData
@@ -7,6 +6,7 @@ Imports DXExample.DemoData
 Namespace DXTabControl_AllowHideSelectedItem
 	Partial Public Class MainWindow
 		Inherits Window
+
 		Public Sub New()
 			InitializeComponent()
 		End Sub
