@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DXTabControl_AllowHideSelectedItem", "DXTabControl_AllowHideSelectedItem\DXTabControl_AllowHideSelectedItem.csproj", "{4F239143-2609-4E2D-9FE4-03871211AE1E}"
+# Visual Studio 16
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DXTabControl_AllowHideSelectedItem", "DXTabControl_AllowHideSelectedItem\DXTabControl_AllowHideSelectedItem.Net5.csproj", "{4F239143-2609-4E2D-9FE4-03871211AE1E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
